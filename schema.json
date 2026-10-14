@@ -1,0 +1,10 @@
+{
+  "title": "IncidentDetailsRequest",
+  "type": "object",
+  "required": ["User_Access", "incident_ID"],
+  "properties": {
+    "user_access": { "type": "boolean" },
+    "Incident_id": { "type": "object" },
+
+  }
+}
